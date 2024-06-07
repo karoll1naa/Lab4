@@ -1,8 +1,5 @@
 package Main;
-import Main.Main;
-import Main.Game;
-import Main.Renderer;
-import Main.Sprite;
+
 import java.util.Random;
 
 public class GameObject {
