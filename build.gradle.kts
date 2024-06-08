@@ -2,6 +2,8 @@ plugins {
     id("java")
 }
 
+java.sourceCompatibility = JavaVersion.VERSION_17
+
 group = "Main"
 version = "1.0-SNAPSHOT"
 
@@ -15,6 +17,6 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
-tasks.test {
+tasks.named<Test>("test") {
     useJUnitPlatform()
 }
