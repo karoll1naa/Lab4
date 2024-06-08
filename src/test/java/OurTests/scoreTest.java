@@ -3,7 +3,8 @@ package OurTests;
 import Main.Game;
 import Main.GameObject;
 import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import static org.junit.Assert.assertEquals;
 
